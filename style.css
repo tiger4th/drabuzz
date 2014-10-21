@@ -1,0 +1,159 @@
+table.list{
+    border-top:1px solid #ffeeee;
+    border-left:1px solid #ffeeee;
+    border-collapse:collapse;
+    border-spacing:0;
+    background-color:#ffffff;
+    empty-cells:show;
+    width:100%;
+}
+.list th{
+    border-right:1px solid #ffeeee;
+    border-bottom:1px solid #ffeeee;
+    color:#ffffff;
+    background-color:#a52a2a;
+    background-position:left top;
+    padding:0.3em 1em;
+    text-align:center;
+    white-space:nowrap;
+}
+.list td{
+    border-right:1px solid #ffeeee;
+    border-bottom:1px solid #ffeeee;
+    padding:0.5em 0.5em;
+}
+
+body{
+background: url(./image/wall.gif);
+background-color: #ffeeee;
+font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+img {
+border: none;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+#wrapper{
+text-align: left;
+width: 90%;
+margin: 0 auto;
+}
+
+#header{
+height: 80px;
+}
+
+#sidebar{
+width: 180px;
+float: left;
+}
+
+#line{position: relative; padding-bottom: 5px;}
+#left {text-align: left; float: left;}
+#right {text-align: right; padding-right: 1em;}
+.link { border-bottom: 1px solid #d0eaf8; padding-bottom: 2px; margin-bottom :2px;}
+
+#container{
+width: 100%;
+float: right;
+margin-left: -200px;
+}
+
+#contents{
+position: relative;
+margin: 0 10px 0 200px;
+padding: 0 0em 0em 0;
+}
+
+#boxlogo {
+padding: 0px 0px 10px 0px;
+float: left;
+}
+
+#ad {
+margin: 0.5em 1em 0em 0.5em;
+text-align: right;
+float: right;
+}
+
+.boxhead {
+padding: 5px;
+border: 1px solid #ffeeee;
+background-color: #a52a2a;
+}
+
+.box {
+padding: 5px;
+border: 1px solid #ffeeee/*#a52a2a*/;
+background-color: #ffffff;
+}
+
+.box2 {
+margin: 0px 20px;
+background-color: #ffffff;
+}
+
+strong{
+font-weight: normal;
+}
+
+h1{
+font-weight:normal;
+display:inline;
+}
+
+h3{
+display:inline;
+}
+
+h3{
+font-weight:normal;
+display:inline;
+}
+
+.xs { font-size: x-small }  /* 小1 */
+.sm { font-size: small }    /* 小 */
+.md { font-size: medium }   /* 標準 */
+.smw { font-size: small;  color:white; }    /* 小白 */
+.mdw { font-size: medium; color:white; }   /* 標準白 */
+.la { font-size: large }    /* 大 */
+
+.blue { color:blue; }
+.black { color:black; }
+
+.fb { color:#990000; }
+.score { color:#003399; }
+
+a{
+text-decoration: none;
+color: #990000;
+}
+
+.krkr {
+height: 600px;
+padding: 10px 0px;
+}
+
+h1{
+font-weight:normal;
+font-size: medium;
+}
+
+p.hr {
+border-bottom: 1px solid #ffeeee;
+margin-top: 3px;
+margin-bottom: 3px;
+}
+
+/*
+#daedf5
+#6699cc
+
+#ffeeee
+#a52a2a
+*/
